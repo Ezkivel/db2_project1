@@ -1,0 +1,68 @@
+Ejemplos de la convencion de programacion utilizada en el proyecto
+
+*IMPORTANTE:
+ -Note el espacio utilizado en los ejemplos
+ -Los nombre de variables, funciones y comentarios deben ser descriptivos
+ -Comentar todo lo necesario
+ -El codigo debe estar ordenado(Usar espacios entre lineas para que el codigo sea mas legible)
+
+*Variables:
+ -int estaEsUnaVaribleDescriptiva
+ -QPushButton pushButtonDescripcion
+ -QCheckBox checkBoxDescripcion
+
+
+
+*Funcion:
+ -void estaEsUnaFuncionDescriptiva()
+  {
+     //algo
+  }
+
+ -int otraFuncionDescriptiva( int variable )
+  {
+     //algo
+  }
+
+
+
+*Estruturas de control:
+ -if ( algo1 >= algo2 )
+  {
+      //algo
+  }
+
+  else if ( algo1 == 0 )
+  {
+  }
+
+ -while ( algo1 < algo2 )
+  {
+     //algo
+  }
+
+ -do
+  {
+  } while ( algo1 < algo2 )
+
+ -for ( int variable = 1; variable < 10; variable++ )
+  {
+  }
+
+
+
+*Ordenado:
+
+ int miFuncionDescriptiva( int unValor )
+ {
+    int variable1 = 10;
+    QString variable2 = "";
+
+    //Conjunto de instrucciones
+    variable2 = Funcion(unValor);
+
+    //Otro conjunto de instrucciones 
+    variable1 = otraFuncion( variable2, unValor );
+
+    return variable1;
+ }
